@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE circuito SYSTEM "circuito.dtd">
+<circuito name="Barcelona">
+	<Longitud unidades="km">4.657</Longitud>
+	<Anchura unidades="m">15</Anchura>
+	<FCarrera>2025-05-30</FCarrera>
+	<HoraCarrera>15:00:00</HoraCarrera>
+	<NVueltas>66</NVueltas>
+	<Localidad>Barcelona</Localidad>
+	<Pais>España</Pais>
+	<Referencias>
+		<Referencia>https://es.wikipedia.org/wiki/Circuito_de_Barcelona-Catalu%C3%B1a</Referencia>
+		<Referencia>https://www.circuitcat.com/es/</Referencia>
+		<Referencia>https://www.barcelona-tourist-guide.com/es/acontecimientos/f1/barcelona-gran-premio.html</Referencia>
+	</Referencias>
+	<Fotografias>
+		<Fotografia src="../multimedia/imagenes/Circuito-dibujo.jpg">Dibujo del circuito</Fotografia>
+		<Fotografia src="../multimedia/imagenes/Circuito-gradas.png">Gradas del circuito</Fotografia>
+		<Fotografia src="../multimedia/imagenes/Circuito-vista-aerea.jpg">Vista aerea del circuito</Fotografia>
+	</Fotografias>
+	<Videos>
+		<Video src="multimedia/videos/video1.mp4">Video1</Video>
+		<Video src="multimedia/videos/video2.mp4">Video2</Video>
+		<Video src="multimedia/videos/video3.mp4">Video3</Video>
+	</Videos>
+	<Coordenadas>
+		<Latitud unidades="º">41.570022</Latitud>
+		<Longitud unidades="º">2.261228</Longitud>
+		<Altitud unidades="m">120</Altitud>
+	</Coordenadas>
+	<Tramos>
+		<Tramo>
+			<Distancia unidades="m">10</Distancia>
+			<Coordenadas>
+				<Latitud unidades="º">41.564849</Latitud>
+				<Longitud unidades="º">2.256938</Longitud>
+				<Altitud unidades="m">115</Altitud>
+			</Coordenadas>
+			<Sector>1</Sector>
+		</Tramo>
+		<Tramo>
+			<Distancia unidades="m">10</Distancia>
+			<Coordenadas>
+				<Latitud unidades="º">41.564495</Latitud>
+				<Longitud unidades="º">2.256024</Longitud>
+				<Altitud unidades="m">115</Altitud>
+			</Coordenadas>
+			<Sector>1</Sector>
+		</Tramo>
+		<Tramo>
+			<Distancia unidades="m">10</Distancia>
+			<Coordenadas>
+				<Latitud unidades="º">41.564916</Latitud>
+				<Longitud unidades="º">2.255456</Longitud>
+				<Altitud unidades="m">113</Altitud>
+			</Coordenadas>
+			<Sector>1</Sector>
+		</Tramo>
+		<Tramo>
+			<Distancia unidades="m">10</Distancia>
+			<Coordenadas>
+				<Latitud unidades="º">41.564188</Latitud>
+				<Longitud unidades="º">2.253610</Longitud>
+				<Altitud unidades="m">109</Altitud>
+			</Coordenadas>
+			<Sector>1</Sector>
+		</Tramo>
+		<Tramo>
+			<Distancia unidades="m">10</Distancia>
+			<Coordenadas>
+				<Latitud unidades="º">41.565203</Latitud>
+				<Longitud unidades="º">2.252192</Longitud>
+				<Altitud unidades="m">126</Altitud>
+			</Coordenadas>
+			<Sector>1</Sector>
+		</Tramo>
+		<Tramo>
+			<Distancia unidades="m">253</Distancia>
+			<Coordenadas>
+				<Latitud unidades="º">41.567909</Latitud>
+				<Longitud unidades="º">2.253832</Longitud>
+				<Altitud unidades="m">126</Altitud>
+			</Coordenadas>
+			<Sector>1</Sector>
+		</Tramo>
+		<Tramo>
+			<Distancia unidades="m">96</Distancia>
+			<Coordenadas>
+				<Latitud unidades="º">41.568462</Latitud>
+				<Longitud unidades="º">2.254676</Longitud>
+				<Altitud unidades="m">132</Altitud>
+			</Coordenadas>
+			<Sector>2</Sector>
+		</Tramo>
+		<Tramo>
+			<Distancia unidades="m">114</Distancia>
+			<Coordenadas>
+				<Latitud unidades="º">41.567593</Latitud>
+				<Longitud unidades="º">2.255386</Longitud>
+				<Altitud unidades="m">133</Altitud>
+			</Coordenadas>
+			<Sector>2</Sector>
+		</Tramo>
+		<Tramo>
+			<Distancia unidades="m">231</Distancia>
+			<Coordenadas>
+				<Latitud unidades="º">41.565784</Latitud>
+				<Longitud unidades="º">2.254030</Longitud>
+				<Altitud unidades="m">129</Altitud>
+			</Coordenadas>
+			<Sector>2</Sector>
+		</Tramo>
+		<Tramo>
+			<Distancia unidades="m">47</Distancia>
+			<Coordenadas>
+				<Latitud unidades="º">41.565327</Latitud>
+				<Longitud unidades="º">2.254589</Longitud>
+				<Altitud unidades="m">124</Altitud>
+			</Coordenadas>
+			<Sector>2</Sector>
+		</Tramo>
+		<Tramo>
+			<Distancia unidades="m">199</Distancia>
+			<Coordenadas>
+				<Latitud unidades="º">41.566165</Latitud>
+				<Longitud unidades="º">2.256750</Longitud>
+				<Altitud unidades="m">115</Altitud>
+			</Coordenadas>
+			<Sector>2</Sector>
+		</Tramo>
+		<Tramo>
+			<Distancia unidades="m">157</Distancia>
+			<Coordenadas>
+				<Latitud unidades="º">41.567348</Latitud>
+				<Longitud unidades="º">2.257821</Longitud>
+				<Altitud unidades="m">116</Altitud>
+			</Coordenadas>
+			<Sector>2</Sector>
+		</Tramo>
+		<Tramo>
+			<Distancia unidades="m">52</Distancia>
+			<Coordenadas>
+				<Latitud unidades="º">41.567783</Latitud>
+				<Longitud unidades="º">2.257462</Longitud>
+				<Altitud unidades="m">118</Altitud>
+			</Coordenadas>
+			<Sector>2</Sector>
+		</Tramo>
+		<Tramo>
+			<Distancia unidades="m">50</Distancia>
+			<Coordenadas>
+				<Latitud unidades="º">41.568058</Latitud>
+				<Longitud unidades="º">2.256955</Longitud>
+				<Altitud unidades="m">121</Altitud>
+			</Coordenadas>
+			<Sector>2</Sector>
+		</Tramo>
+		<Tramo>
+			<Distancia unidades="m">28</Distancia>
+			<Coordenadas>
+				<Latitud unidades="º">41.569966</Latitud>
+				<Longitud unidades="º">2.255933</Longitud>
+				<Altitud unidades="m">134</Altitud>
+			</Coordenadas>
+			<Sector>2</Sector>
+		</Tramo>
+		<Tramo>
+			<Distancia unidades="m">326</Distancia>
+			<Coordenadas>
+				<Latitud unidades="º">41.571976</Latitud>
+				<Longitud unidades="º">2.259959</Longitud>
+				<Altitud unidades="m">134</Altitud>
+			</Coordenadas>
+			<Sector>2</Sector>
+		</Tramo>
+		<Tramo>
+			<Distancia unidades="m">187</Distancia>
+			<Coordenadas>
+				<Latitud unidades="º">41.5727763</Latitud>
+				<Longitud unidades="º">2.261934</Longitud>
+				<Altitud unidades="m">131</Altitud>
+			</Coordenadas>
+			<Sector>3</Sector>
+		</Tramo>
+		<Tramo>
+			<Distancia unidades="m">56</Distancia>
+			<Coordenadas>
+				<Latitud unidades="º">41.573252</Latitud>
+				<Longitud unidades="º">2.261768</Longitud>
+				<Altitud unidades="m">132</Altitud>
+			</Coordenadas>
+			<Sector>3</Sector>
+		</Tramo>
+		<Tramo>
+			<Distancia unidades="m">113</Distancia>
+			<Coordenadas>
+				<Latitud unidades="º">41.573283</Latitud>
+				<Longitud unidades="º">2.260430</Longitud>
+				<Altitud unidades="m">134</Altitud>
+			</Coordenadas>
+			<Sector>3</Sector>
+		</Tramo>
+		<Tramo>
+			<Distancia unidades="m">85</Distancia>
+			<Coordenadas>
+				<Latitud unidades="º">41.572870</Latitud>
+				<Longitud unidades="º">2.259553</Longitud>
+				<Altitud unidades="m">138</Altitud>
+			</Coordenadas>
+			<Sector>3</Sector>
+		</Tramo>
+		<Tramo>
+			<Distancia unidades="m">57</Distancia>
+			<Coordenadas>
+				<Latitud unidades="º">41.573154</Latitud>
+				<Longitud unidades="º">2.258960</Longitud>
+				<Altitud unidades="m">141</Altitud>
+			</Coordenadas>
+			<Sector>3</Sector>
+		</Tramo>
+		<Tramo>
+			<Distancia unidades="m">62</Distancia>
+			<Coordenadas>
+				<Latitud unidades="º">41.573704</Latitud>
+				<Longitud unidades="º">2.258965</Longitud>
+				<Altitud unidades="m">142</Altitud>
+			</Coordenadas>
+			<Sector>3</Sector>
+		</Tramo>
+		<Tramo>
+			<Distancia unidades="m">180</Distancia>
+			<Coordenadas>
+				<Latitud unidades="º">41.574695</Latitud>
+				<Longitud unidades="º">2.260725</Longitud>
+				<Altitud unidades="m">138</Altitud>
+			</Coordenadas>
+			<Sector>3</Sector>
+		</Tramo>
+		<Tramo>
+			<Distancia unidades="m">129</Distancia>
+			<Coordenadas>
+				<Latitud unidades="º">41.574005</Latitud>
+				<Longitud unidades="º">2.261961</Longitud>
+				<Altitud unidades="m">131</Altitud>
+			</Coordenadas>
+			<Sector>3</Sector>
+		</Tramo>
+		<Tramo>
+			<Distancia unidades="m">46</Distancia>
+			<Coordenadas>
+				<Latitud unidades="º">41.574273</Latitud>
+				<Longitud unidades="º">2.262365</Longitud>
+				<Altitud unidades="m">130</Altitud>
+			</Coordenadas>
+			<Sector>3</Sector>
+		</Tramo>
+		<Tramo>
+			<Distancia unidades="m">160</Distancia>
+			<Coordenadas>
+				<Latitud unidades="º">41.573247</Latitud>
+				<Longitud unidades="º">2.263712</Longitud>
+				<Altitud unidades="m">124</Altitud>
+			</Coordenadas>
+			<Sector>3</Sector>
+		</Tramo>
+		<Tramo>
+			<Distancia unidades="m">412</Distancia>
+			<Coordenadas>
+				<Latitud unidades="º">41.571108</Latitud>
+				<Longitud unidades="º">2.262137</Longitud>
+				<Altitud unidades="m">120</Altitud>
+			</Coordenadas>
+			<Sector>3</Sector>
+		</Tramo>
+	</Tramos>
+</circuito>

@@ -1,0 +1,20 @@
+    /** 
+    A rellenar con estilo para la exposicion de datos meteorologicos
+    */
+    section section{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    section section h3{
+        width: 100%;
+    }
+
+    article{
+        width: 15em;
+        box-sizing: border-box;
+        border: 3px solid black;
+        padding: 1em;
+    }
+

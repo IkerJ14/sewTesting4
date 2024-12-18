@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>SEW.P0</title> 
+    <meta name ="author" content ="Iker Jiménez Herrero" />
+    <meta name ="description" content ="Página con información del piloto" />
+    <meta name ="keywords" content ="Información piloto" />
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+    <script src="./js/circuito.js"></script>
+    <link rel="icon" type="img/ico" href="multimedia/imagenes/favicon.ico" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
+</head>
+<body>
+    <header>
+        <h1>F1Desktop</h1>
+        <nav>
+           <a href="./index.html">Inicio</a>
+           <a href="./piloto.html">Piloto</a>
+           <a href="./calendario.html">Calendario</a>
+           <a href="./circuito.html" class="active">Circuito</a>
+           <a href="./meteorologia.html">Meteorologia</a>
+           <a href="./noticias.html">Noticias</a>
+           <a href="./viajes.html">Viajes</a>
+           <a href="./juegos.html">Juegos</a>
+        </nav>
+     </header>
+     <section>
+        <p>Estás en: <a href="./index.html">Inicio</a> | Circuito</p>
+        <h2>Circuito</h2>
+        <h3>ProcesarXML</h3>
+        <label for="xml">XML
+            <input id="xml" type="file" onchange="miCircuito.procesarXML(this.files)"></input>
+        </label>
+     </section>
+     <section>
+         <h3>ProcesarKML</h3>
+         <label for="kml"> KML
+            <input id="kml" type="file" onchange="miCircuito.procesarKML(this.files)"></input>
+        </label>
+         <div style="width: 50%; height: 500px;"></div>
+     </section>
+
+     <section>
+        <h3>ProcesarSVG</h3>
+        <label for="svg">
+            <input id="svg" type="file" onchange="miCircuito.procesarSVG(this.files)"></input>
+        </label>
+        
+    </section>
+
+
+</body>
+</html>

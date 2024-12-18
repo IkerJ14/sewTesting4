@@ -1,0 +1,17 @@
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header nav{
+    margin-left: auto;
+    margin-right: 5rem;
+}
+
+@media screen and (max-width: 465px){
+    main section:first-of-type p:first-of-type{
+        display: none;
+    }
+}

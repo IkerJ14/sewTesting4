@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema xmlns="http://www.uniovi.es/circuito" elementFormDefault="qualified" targetNamespace="http://www.uniovi.es/circuito" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="circuito">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Longitud" />
+        <xs:element ref="Anchura" />
+        <xs:element ref="FCarrera" />
+        <xs:element ref="HoraCarrera" />
+        <xs:element ref="NVueltas" />
+        <xs:element ref="Localidad" />
+        <xs:element ref="Pais" />
+        <xs:element ref="Referencias" />
+        <xs:element ref="Fotografias" />
+        <xs:element ref="Videos" />
+        <xs:element ref="Coordenadas" />
+        <xs:element ref="Tramos" />
+      </xs:sequence>
+      <xs:attribute name="name" type="xs:string" use="required" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Longitud">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:decimal">
+          <xs:attribute name="unidades" type="xs:string" use="required" />
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Anchura">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:decimal">
+          <xs:attribute name="unidades" type="xs:string" use="required" />
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FCarrera" type="xs:date" />
+  <xs:element name="HoraCarrera" type="xs:time" />
+  <xs:element name="NVueltas" type="xs:integer" />
+  <xs:element name="Localidad" type="xs:string" />
+  <xs:element name="Pais" type="xs:string" />
+  <xs:element name="Referencias">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="3" maxOccurs="unbounded" ref="Referencia" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Referencia" type="xs:string" />
+  <xs:element name="Fotografias">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="5" ref="Fotografia" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Fotografia">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute name="src" type="xs:string" use="required" />
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Videos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="3" ref="Video" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Video">
+  <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute name="src" type="xs:string" use="required" />
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Coordenadas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Latitud" />
+        <xs:element ref="Longitud" />
+        <xs:element ref="Altitud" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Latitud">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:decimal">
+          <xs:attribute name="unidades" type="xs:string" use="required" />
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Altitud">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:decimal">
+          <xs:attribute name="unidades" type="xs:string" use="required" />
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Tramos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="unbounded" ref="Tramo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Tramo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Distancia" />
+        <xs:element ref="Coordenadas" />
+        <xs:element ref="Sector" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Distancia">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:decimal">
+          <xs:attribute name="unidades" type="xs:string" use="required" />
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Sector" type="xs:string" />
+</xs:schema>
